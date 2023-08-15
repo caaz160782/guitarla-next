@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Layout from "../components/layout"
 
 const Nosotros = () => {
@@ -7,7 +6,7 @@ const Nosotros = () => {
       title={'Nosotros'}
       description={'Sobre nosotros, guitarLA, tienda de música'}
     >
-        <Link href="/">Inicio</Link>
+        <h1>Nosotros</h1>
     </Layout>
   )
 }
