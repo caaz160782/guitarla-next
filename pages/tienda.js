@@ -1,4 +1,6 @@
 import Layout from "../components/layout"
+import ListadoGuitarras from "../components/listado-guitarras"
+
 
 const Tienda = () => {
   return (
@@ -6,7 +8,13 @@ const Tienda = () => {
     title={'Tienda virtual'}
     description={'Tienda virtual de guitarras, instrumentos, GuitarLA'}
   >
-    <h1>tienda</h1>
+    <main className="contenedor">
+      <h2 className="heading">Nuestra Colección</h2>
+
+      <ListadoGuitarras
+        
+      />
+    </main>
   </Layout>
   )
 }

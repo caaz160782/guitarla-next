@@ -15,12 +15,13 @@ const Footer = () => {
          <Link href="/nosotros" >
              Nosotros 
           </Link>
+          <Link href="/tienda" >
+             Tienda             
+          </Link>
          <Link href="/blog"   >          
              Blog            
           </Link>
-         <Link href="/tienda" >
-             Tienda             
-          </Link>
+        
         </nav>
         <p className={styles.copyright}>Todos los derechos reservados {new Date().getFullYear()}</p>
       </div>
